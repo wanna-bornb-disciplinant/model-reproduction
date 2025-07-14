@@ -3,8 +3,14 @@
 [2] ```__init__.py```只负责当前目录中的行为，如果希望子文件夹也能被调用，需要在子文件夹同样添加```__init__.py```    
 类似下面的结构：  
 ```
-  project/
-  
-```  
+project/
+├── __init__.py
+├── module1.py
+└── subpackage/
+    ├── __init__.py
+    └── module2.py
+```
+
+[3] 
       
       
